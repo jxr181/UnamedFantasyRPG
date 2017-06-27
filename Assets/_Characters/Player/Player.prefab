@@ -698,9 +698,7 @@ MonoBehaviour:
   maxHealthPoints: 1000
   enemyLayer: 9
   damagePerHit: 50
-  minTimeBetweenHits: 1
   weaponInUse: {fileID: 11400000, guid: 2450805f61a04f542b74e448f4f8e684, type: 2}
-  maxAttackRange: 2
   animOverrideController: {fileID: 22100000, guid: 313923c57b175e648be62de22b6f8502,
     type: 2}
   currentHealthPoints: 0
@@ -740,7 +738,7 @@ CapsuleCollider:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1501013962498128}
-  m_Material: {fileID: 13400000, guid: 52baaeb214519f347a35cf0edfd262ff, type: 2}
+  m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
   m_Radius: 0.3

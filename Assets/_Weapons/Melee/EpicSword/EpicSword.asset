@@ -12,6 +12,8 @@ MonoBehaviour:
   m_Name: EpicSword
   m_EditorClassIdentifier: 
   weaponPrefab: {fileID: 100000, guid: 90c25ff0db82bf64cbc6b8e405018824, type: 3}
-  attackAnim: {fileID: 7400000, guid: dce280ced5e006c4cb0eb0fab2f51b75, type: 3}
+  attackAnim: {fileID: 7400000, guid: 7b5b17e2d42e0424f9c36012595dc9b6, type: 3}
+  minTimeBetweenHits: 2
+  maxAttackRange: 2
   gripTransform: {fileID: 4010814010891170, guid: 6685d10aafdfdcc4a8832c70b2a8c1ed,
     type: 2}
