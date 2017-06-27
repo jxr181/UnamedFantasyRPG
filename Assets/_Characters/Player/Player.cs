@@ -104,8 +104,9 @@ namespace RPG.Characters
             var enemyComponent = target.GetComponent<Enemy>();
             if (Time.time - lastHitTime > weaponInUse.GetMinTimeBetweenHits())
             {
-                animator.SetTrigger("Attack"); // TODO Make Const
+                animator.SetTrigger("Attack"); // TODO Make Const                
                 enemyComponent.TakeDamage(damagePerHit);
+
                 lastHitTime = Time.time;
             }
         }
