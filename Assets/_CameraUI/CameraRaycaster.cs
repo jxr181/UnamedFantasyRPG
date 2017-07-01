@@ -57,7 +57,7 @@ namespace RPG.CameraUI
             // Notify delegates of highest priority game object under mouse when clicked
             if (Input.GetMouseButtonDown(1))
             {
-                notifyRightClickObservers(priorityHit.Value, layerHit);
+                notifyRightClickObservers (priorityHit.Value, layerHit);
             }
         }
 
