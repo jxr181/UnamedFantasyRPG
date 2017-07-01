@@ -6,5 +6,5 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Combat Sandbox/Combat Sandbox.unity
+    path: Assets/_Levels/Combat Sandbox.unity
     guid: bc91aec7e59c6884088b449d23a4af32

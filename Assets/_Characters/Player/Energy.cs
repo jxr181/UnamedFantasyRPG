@@ -27,6 +27,7 @@ namespace RPG.Characters
 			
 		void ProcessRightClick(RaycastHit raycastHit, int layerHit)
         {
+            print("Right Click");
             float newEnergyPoints = currentEnergyPoints - pointsPerHit;
             currentEnergyPoints = Mathf.Clamp(newEnergyPoints, 0f, maxEnergyPoints);
             UpdateEnergyBar();
