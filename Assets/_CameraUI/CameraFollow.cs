@@ -7,8 +7,6 @@ namespace RPG.CameraUI
 
     public class CameraFollow : MonoBehaviour
     {
-
-        [SerializeField] GameObject gameCanvasPrefab = null;
         [SerializeField] GameObject eventSystemPrefab = null;
 
         GameObject player;

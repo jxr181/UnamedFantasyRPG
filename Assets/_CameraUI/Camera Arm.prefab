@@ -54,13 +54,13 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1588872022929046}
-  m_LocalRotation: {x: 0.4095709, y: -0, z: -0, w: 0.91227835}
-  m_LocalPosition: {x: 0, y: 9.33, z: -6.43}
+  m_LocalRotation: {x: 0.36130607, y: -0, z: -0, w: 0.9324474}
+  m_LocalPosition: {x: 0, y: 9.25, z: -8.45}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4442529124998184}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 48.356003, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 42.361004, y: 0, z: 0}
 --- !u!4 &4442529124998184
 Transform:
   m_ObjectHideFlags: 1
@@ -68,7 +68,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1599610349298756}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -109.6, y: 0, z: -189.8}
+  m_LocalPosition: {x: -107.2, y: 0, z: -212.54}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4008900334741328}
@@ -136,7 +136,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b84106e4d4e47874592d6d60b61d8f26, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  walkCursor: {fileID: 2800000, guid: 0273c2a7a0ca5e940911444ce6ceb19b, type: 3}
   enemyCursor: {fileID: 2800000, guid: 4954941e33230af42953225ba5d7a933, type: 3}
   UnknownCursor: {fileID: 2800000, guid: 59e5b66e31c0a104280e2a74b663794c, type: 3}
   cursorHotspot: {x: 0, y: 0}
@@ -166,7 +165,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d02853f5d34bd8f429969ac34c466d07, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  layerPriorities: 090000000a00000008000000
+  layerPriorities: 0900000008000000
+  walkCursor: {fileID: 2800000, guid: 0273c2a7a0ca5e940911444ce6ceb19b, type: 3}
+  enemyCursor: {fileID: 2800000, guid: 4954941e33230af42953225ba5d7a933, type: 3}
+  cursorHotspot: {x: 0, y: 0}
 --- !u!124 &124692891615562228
 Behaviour:
   m_ObjectHideFlags: 1
