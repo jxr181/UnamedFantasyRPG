@@ -23,7 +23,6 @@ GameObject:
   - component: {fileID: 92429084221570302}
   - component: {fileID: 124692891615562228}
   - component: {fileID: 81478361758961490}
-  - component: {fileID: 114039226869810152}
   - component: {fileID: 114879101565974748}
   m_Layer: 0
   m_Name: Main Camera
@@ -125,20 +124,6 @@ Behaviour:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1588872022929046}
   m_Enabled: 1
---- !u!114 &114039226869810152
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1588872022929046}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b84106e4d4e47874592d6d60b61d8f26, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  enemyCursor: {fileID: 2800000, guid: 4954941e33230af42953225ba5d7a933, type: 3}
-  UnknownCursor: {fileID: 2800000, guid: 59e5b66e31c0a104280e2a74b663794c, type: 3}
-  cursorHotspot: {x: 0, y: 0}
 --- !u!114 &114560685585373026
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -150,8 +135,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f38397a5b56d9b44b4c13df92053e12, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameCanvasPrefab: {fileID: 1653876244793134, guid: 75a43cca039264395b99698681e52275,
-    type: 2}
   eventSystemPrefab: {fileID: 1449573423430578, guid: be9768689b1159141bcb97126d085246,
     type: 2}
 --- !u!114 &114879101565974748
@@ -165,7 +148,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d02853f5d34bd8f429969ac34c466d07, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  layerPriorities: 0900000008000000
   walkCursor: {fileID: 2800000, guid: 0273c2a7a0ca5e940911444ce6ceb19b, type: 3}
   enemyCursor: {fileID: 2800000, guid: 4954941e33230af42953225ba5d7a933, type: 3}
   cursorHotspot: {x: 0, y: 0}
