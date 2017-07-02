@@ -471,13 +471,7 @@ Prefab:
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 114039226869810152, guid: 536b69c106ab94a4583a10aa22337ba7,
-        type: 2}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 114039226869810152, guid: 536b69c106ab94a4583a10aa22337ba7, type: 2}
+    m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 536b69c106ab94a4583a10aa22337ba7, type: 2}
   m_IsPrefabParent: 0
 --- !u!1001 &1009600312
@@ -850,7 +844,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1394162450
 Transform:
   m_ObjectHideFlags: 0
@@ -886,9 +880,14 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 114638551488184072, guid: f0aa8fb93f2953a4886603dd973e6337,
+        type: 2}
+      propertyPath: abilities.Array.size
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 4420393401459254, guid: f0aa8fb93f2953a4886603dd973e6337, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -114.82
+      value: -167.3
       objectReference: {fileID: 0}
     - target: {fileID: 4420393401459254, guid: f0aa8fb93f2953a4886603dd973e6337, type: 2}
       propertyPath: m_LocalPosition.y
@@ -896,7 +895,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4420393401459254, guid: f0aa8fb93f2953a4886603dd973e6337, type: 2}
       propertyPath: m_LocalPosition.z
-      value: -224.59
+      value: -211.2
       objectReference: {fileID: 0}
     - target: {fileID: 4420393401459254, guid: f0aa8fb93f2953a4886603dd973e6337, type: 2}
       propertyPath: m_LocalRotation.x
@@ -923,10 +922,21 @@ Prefab:
       propertyPath: energyBar
       value: 
       objectReference: {fileID: 286840585}
-    - target: {fileID: 195641925796554014, guid: f0aa8fb93f2953a4886603dd973e6337,
+    - target: {fileID: 114638551488184072, guid: f0aa8fb93f2953a4886603dd973e6337,
         type: 2}
-      propertyPath: m_StoppingDistance
-      value: 1.5
+      propertyPath: abilities.Array.data[0]
+      value: 
+      objectReference: {fileID: 11400000, guid: 5915b85ba788c3a42acb2f538583a475,
+        type: 2}
+    - target: {fileID: 114638551488184072, guid: f0aa8fb93f2953a4886603dd973e6337,
+        type: 2}
+      propertyPath: baseDamage
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 114638551488184072, guid: f0aa8fb93f2953a4886603dd973e6337,
+        type: 2}
+      propertyPath: abilities.Array.data[1]
+      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f0aa8fb93f2953a4886603dd973e6337, type: 2}
